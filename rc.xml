@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Macchiato-Openbox</name>
+    <name>Palenight-Openbox</name>
     <titleLayout>CIMLDN</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -118,7 +118,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>6</number>
+    <number>10</number>
     <firstdesk>1</firstdesk>
     <names>
       <!-- set names up here if you want to, like this:
@@ -301,6 +301,26 @@
         <to>6</to>
       </action>
     </keybind>
+    <keybind key="W-S-7">
+      <action name="SendToDesktop">
+        <to>7</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-8">
+      <action name="SendToDesktop">
+        <to>8</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-9">
+      <action name="SendToDesktop">
+        <to>9</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-0">
+      <action name="SendToDesktop">
+        <to>10</to>
+      </action>
+    </keybind>
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -329,6 +349,26 @@
     <keybind key="W-6">
       <action name="GoToDesktop">
         <to>6</to>
+      </action>
+    </keybind>
+    <keybind key="W-7">
+      <action name="GoToDesktop">
+        <to>7</to>
+      </action>
+    </keybind>
+    <keybind key="W-8">
+      <action name="GoToDesktop">
+        <to>8</to>
+      </action>
+    </keybind>
+    <keybind key="W-9">
+      <action name="GoToDesktop">
+        <to>9</to>
+      </action>
+    </keybind>
+    <keybind key="W-0">
+      <action name="GoToDesktop">
+        <to>10</to>
       </action>
     </keybind>
     <keybind key="W-space">
