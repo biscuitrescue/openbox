@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Palenight-Openbox</name>
+    <name>Everforest-Openbox</name>
     <titleLayout>CIMLDN</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -55,35 +55,35 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>M PLUS 1 Code Medium</name>
-      <size>10</size>
+      <name>azukifontBI</name>
+      <size>11</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>M PLUS 1 Code</name>
-      <size>10</size>
+      <name>azukifontBI</name>
+      <size>11</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>M PLUS 1 Code Medium</name>
-      <size>9</size>
+      <name>azukifontBI</name>
+      <size>11</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>M PLUS 1 Code Medium</name>
-      <size>9</size>
+      <name>azukifontBI</name>
+      <size>11</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -479,9 +479,24 @@
         <command>light -A 5</command>
       </action>
     </keybind>
+    <keybind key="W-Prior">
+      <action name="execute">
+        <command>light -A 5</command>
+      </action>
+    </keybind>
+    <keybind key="W-Next">
+      <action name="execute">
+        <command>light -U 5</command>
+      </action>
+    </keybind>
     <keybind key="XF86AudioMute">
       <action name="execute">
         <command>pamixer -t</command>
+      </action>
+    </keybind>
+    <keybind key="F4">
+      <action name="execute">
+        <command>mictoggle</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMicMute">
